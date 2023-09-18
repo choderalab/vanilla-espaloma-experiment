@@ -15,10 +15,10 @@ The initial Tyk2 protein and ligand structures are taken from the custom alchemi
     - `script/`
     - `tyk2-lig_ejm_31/`
         - `crd/`
-        - `espaloma-0.3/`
+        - `espaloma/`
         - `openff-2.1.0/`
 - `envs/`: Stores conda environment files
-    - `environment-0.3.0-v3.yaml`: Conda environment to run Perses with `espaloma-0.3.0` that parameterize both small molecules and proteins
+    - `environment-0.3.0-v3.yaml`: Conda environment to run Perses with `espaloma-0.3` that parameterize both small molecules and proteins
 
 
 ## Citation
