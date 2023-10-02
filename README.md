@@ -1,5 +1,6 @@
 # Protein-ligand standard MD using espaloma-0.3
 This repository includes scripts to run standard MD using `espaloma-0.3`.
+This repository is part of [espaloma-0.3.0-manuscript](https://github.com/choderalab/espaloma-0.3.0-manuscript).
 
 
 ## Description
