@@ -3,7 +3,7 @@ System preparation using `espaloma`
 > cd espaloma/prep  
 > bsub < lsf-submit.sh
 
-Run vanilla MD
+Run MD
 > cd espaloma/run/sim1  
 > ./submit.sh
 
