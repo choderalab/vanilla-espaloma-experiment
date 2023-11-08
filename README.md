@@ -22,6 +22,10 @@ The initial Tyk2 protein and ligand structures are taken from the custom alchemi
     - `environment-0.3.0-v3.yaml`: Conda environment to run Perses with `espaloma-0.3` that parameterize both small molecules and proteins
 
 
+## Prerequisite
+OpenEye toolkit is required to load PBD files into OpenFF Molecule objects. Academic license can be obtained [here](https://www.eyesopen.com/academic-licensing).
+
+
 ## Citation
 If you find this helpful please cite the following:
 
