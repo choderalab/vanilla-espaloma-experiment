@@ -436,13 +436,18 @@ dependencies:
   - pip:
     - amberlite==22.0
     - amberutils==21.0
-    - cinnabar==0.3.0+1.gde7bc66
-    - espaloma==0.3.0
+    #- cinnabar==0.3.0+1.gde7bc66
+    - git+https://github.com/kntkb/cinnabar.git@de7bc6623fb25d75848aa1c9f538b77cd02a4b01
+    #- git+https://github.com/kntkb/cinnabar.git@add-tick-frequency
+    #- espaloma==0.3.0
+    - git+https://github.com/choderalab/espaloma.git@0.3.0
     - mmpbsa-py==16.0
-    - openmmforcefields==0.11.0+77.g6d2c3dc
+    #- openmmforcefields==0.11.0+77.g6d2c3dc
+    - git+https://github.com/kntkb/openmmforcefields.git@6d2c3dcd33d9800a32032d28b6b2dca92f348a43
     - packmol-memgen==1.2.3rc0
     - pdb4amber==22.0
-    - perses==0.10.1+6.g0d069fc
+    #- perses==0.10.1+6.g0d069fc
+    - git+https://github.com/kntkb/perses.git@0d069fc1cf31b8cce1ae7a1482c3fa46bc1382d2
+    #- git+https://github.com/kntkb/perses.git@support-protein-espaloma
     - pytraj==2.0.6
     - sander==22.0
-prefix: /lila/home/takabak/mambaforge/envs/perses-espaloma-0.3.0-v3
